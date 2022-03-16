@@ -6,9 +6,6 @@ public class Error {
     public String message;
 
     public Error() {
-        active = false;
-        status = 11;
-        message = "No Good";
     }
 
     public Error(boolean active, int status, String message) {
