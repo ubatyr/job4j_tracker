@@ -12,3 +12,4 @@ public class Dentist extends Doctor {
         this.clinics = clinics;
     }
 }
+

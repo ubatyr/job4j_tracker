@@ -12,3 +12,4 @@ public class Doctor extends Profession {
         this.experience = experience;
     }
 }
+
