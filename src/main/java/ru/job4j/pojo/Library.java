@@ -26,7 +26,7 @@ public class Library {
         System.out.println("Only book - Clean code");
         for (int index = 0; index < array.length; index++) {
             Book rsl = array[index];
-            if (rsl.getName() == "Clean code") {
+            if ("Clean code".equals(rsl.getName())) {
                 System.out.println(rsl.getName() + " - " + rsl.getPages());
             }
         }
