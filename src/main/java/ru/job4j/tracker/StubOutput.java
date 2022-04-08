@@ -7,6 +7,8 @@ public class StubOutput implements Output {
     public void println(Object obj) {
         if (obj != null) {
             buffer.append(obj.toString());
+        } else {
+            buffer.append("null");
         }
         buffer.append(System.lineSeparator());
     }
