@@ -31,10 +31,10 @@ public final class SingleTracker {
     }
 
     public boolean replace(int id, Item item) {
-        return replace(id, item);
+        return tracker.replace(id, item);
     }
 
     public boolean delete(int id) {
-        return delete(id);
+        return tracker.delete(id);
     }
 }
