@@ -33,7 +33,7 @@ public class StartUITest {
                 new CreateAction(out),
                 new ExitAction()};
         new StartUI(out).init(in, tracker, actions);
-        assertThat(tracker.findAll()[0].getName(), is("Item name"));
+        assertThat(tracker.findAll().get(0).getName(), is("Item name"));
     }
 
     @Test
